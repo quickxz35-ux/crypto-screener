@@ -1,0 +1,34 @@
+{
+  "timeframe": "5m",
+  "topN": 100,
+  "minConfidence": 45,
+  "maxIdeas": 15,
+  "weights": {
+    "trend": 22,
+    "momentum": 16,
+    "volume": 12,
+    "oiDelta": 16,
+    "funding": 10,
+    "orderbook": 14,
+    "takerFlow": 10,
+    "whale": 12,
+    "buySellVol": 10
+  },
+  "thresholds": {
+    "rsiLongMin": 50,
+    "rsiShortMax": 50,
+    "volumeSpikeMin": 1.0,
+    "oiDeltaMinPct": 0.0,
+    "orderbookLongMin": 0.51,
+    "orderbookShortMax": 0.49,
+    "takerLongMin": 1.0,
+    "takerShortMax": 1.0,
+    "fundingTooHigh": 0.0008,
+    "fundingTooLow": -0.0008,
+    "whaleBullMin": 55,
+    "whaleBearMax": 45,
+    "buySellLongMin": 1.05,
+    "buySellShortMax": 0.95,
+    "whaleUsdThreshold": 50000
+  }
+}
